@@ -251,7 +251,7 @@ ConcurrentHashMap的并发度就是segment的大小，默认为16，这意味着
 如果使用的是有界队列比如ArrayBlockingQueue，任务首先会被添加到ArrayBlockingQueue中，ArrayBlockingQueue满了，会根据maximumPoolSize的值增加线程数量，如果增加了线程数量还是处理不过来，ArrayBlockingQueue继续满，那么则会使用拒绝策略RejectedExecutionHandler处理满了的任务，默认是AbortPolicy
  
 
-28、Java中用到的线程调度算法是什么
+# 28、Java中用到的线程调度算法是什么
 
 抢占式。一个线程用完CPU之后，操作系统会根据线程优先级、线程饥饿情况等数据算出一个总的优先级并分配下一个时间片给某个线程执行。
 
