@@ -62,13 +62,13 @@ Java堆从GC的角度还可以细分为:新生代区、From Survivor区和 To Su
 ### 新生代
 是用来存放新生的对象。一般占据堆的1/3空间。由于频繁创建对象，所以新生代会频繁触发
 MinorGC进行垃圾回收。新生代又分为Eden区、ServivorFrom、ServivorTo三个区。
-2.3.1.1.Eden 区
+#### Eden 区
 Java新对象的出生地（如果新创建的对象占用内存很大，则直接分配到老 年代）。当Eden区内存不够的时候就会触发MinorGC，对新生代区进行 一次垃圾回收。
-2.3.1.2.ServivorFrom
+#### ServivorFrom
 上一次GC的幸存者，作为这一次GC的被扫描者。
-2.3.1.3.ServivorTo
+#### ServivorTo
 保留了一次MinorGC过程中的幸存者。
-2.3.1.4.MinorGC的过程（复制-＞清空-＞互换）
+#### MinorGC的过程（复制-＞清空-＞互换）
 MinorGC采用复制算法
 1： eden、servicorFrom 复制到ServicorTo,年龄+1
 首先，把Eden和ServivorFrom区域中存活的对象复制到ServicorTo区域（如果有对象的年 龄以及达到了老年的标准，则赋值到老年代区），同时把这些对象的年龄+1 （如果ServicorTo不 够位置了就放到老年区）；
