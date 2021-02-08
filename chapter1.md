@@ -64,7 +64,7 @@ JVM内存区域主要分为线程私有区域【程序计数器、虚拟机栈�
 Java堆从GC的角度还可以细分为:新生代区、From Survivor区和 To Survivor区）和老年 代。
 
 
-2.3.1.新生代
+### 新生代
 是用来存放新生的对象。一般占据堆的1/3空间。由于频繁创建对象，所以新生代会频繁触发
 MinorGC进行垃圾回收。新生代又分为Eden区、ServivorFrom、ServivorTo三个区。
 2.3.1.1.Eden 区
