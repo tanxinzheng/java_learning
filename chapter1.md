@@ -70,13 +70,13 @@ Java新对象的出生地（如果新创建的对象占用内存很大，则直�
 保留了一次MinorGC过程中的幸存者。
 #### MinorGC的过程（复制-＞清空-＞互换）
 MinorGC采用复制算法
-1： eden、servicorFrom 复制到ServicorTo,年龄+1
+- eden、servicorFrom 复制到ServicorTo,年龄+1
 首先，把Eden和ServivorFrom区域中存活的对象复制到ServicorTo区域（如果有对象的年 龄以及达到了老年的标准，则赋值到老年代区），同时把这些对象的年龄+1 （如果ServicorTo不 够位置了就放到老年区）；
-2：清空eden、servicorFrom
+- 清空eden、servicorFrom
 然后，清空Eden和ServicorFrom中的对象；
-3： ServicorTo 和ServicorFrom 互换
+- ServicorTo 和ServicorFrom 互换
 最后，ServicorTo 和 ServicorFrom 互换，原 ServicorTo 成为下一次 GC 时的 ServicorFrom 区。
-2.3.2.老年代
+### 老年代
 主要存放应用程序中生命周期长的内存对象。
 老年代的对象比较稳定，所以MajorGC不会频繁执行。在进行MajorGC前一般都先进行 了一次MinorGC，使得有新生代的对象晋身入老年代，导致空间不够用时才触发。当无法找到足 够大的连续空间分配给新创建的较大对象时也会提前触发一次MajorGC进行垃圾回收腾出空间。
 MajorGC采用标记清除算法：首先扫描一次所有老年代，标记出存活的对象，然后回收没 有标记的对象。MajorGC的耗时比较长，因为要扫描再回收。MajorGC会产生内存碎片，为了减 少内存损耗，我们一般需要进行合并或者标记出来方便下次直接分配。当老年代也满了装不下的 时候，就会抛出OOM （Out of Memory）异常。
