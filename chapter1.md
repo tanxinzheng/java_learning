@@ -76,6 +76,7 @@ MinorGC采用复制算法
 然后，清空Eden和ServicorFrom中的对象；
 - ServicorTo 和ServicorFrom 互换
 最后，ServicorTo 和 ServicorFrom 互换，原 ServicorTo 成为下一次 GC 时的 ServicorFrom 区。
+
 ### 老年代
 主要存放应用程序中生命周期长的内存对象。
 老年代的对象比较稳定，所以MajorGC不会频繁执行。在进行MajorGC前一般都先进行 了一次MinorGC，使得有新生代的对象晋身入老年代，导致空间不够用时才触发。当无法找到足 够大的连续空间分配给新创建的较大对象时也会提前触发一次MajorGC进行垃圾回收腾出空间。
