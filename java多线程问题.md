@@ -130,7 +130,7 @@ Runnable接口中的run()方法的返回值是void，它做的事情只是纯粹
 
  
 
-13、ThreadLocal有什么用
+# 13、ThreadLocal有什么用
 
 简单说ThreadLocal就是一种以空间换时间的做法，在每个Thread里面维护了一个以开地址法实现的ThreadLocal.ThreadLocalMap，把数据进行隔离，数据不共享，自然就没有线程安全方面的问题了
 
