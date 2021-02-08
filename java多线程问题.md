@@ -136,31 +136,31 @@ Runnable接口中的run()方法的返回值是void，它做的事情只是纯粹
 
  
 
-14、为什么wait()方法和notify()/notifyAll()方法要在同步块中被调用
+# 14、为什么wait()方法和notify()/notifyAll()方法要在同步块中被调用
 
 这是JDK强制的，wait()方法和notify()/notifyAll()方法在调用前都必须先获得对象的锁
 
  
 
-15、wait()方法和notify()/notifyAll()方法在放弃对象监视器时有什么区别
+# 15、wait()方法和notify()/notifyAll()方法在放弃对象监视器时有什么区别
 
 wait()方法和notify()/notifyAll()方法在放弃对象监视器的时候的区别在于：wait()方法立即释放对象监视器，notify()/notifyAll()方法则会等待线程剩余代码执行完毕才会放弃对象监视器。
 
  
 
-16、为什么要使用线程池
+# 16、为什么要使用线程池
 
 避免频繁地创建和销毁线程，达到线程对象的重用。另外，使用线程池还可以根据项目灵活地控制并发的数目。
 
  
 
-17、怎么检测一个线程是否持有对象监视器
+# 17、怎么检测一个线程是否持有对象监视器
 
 我也是在网上看到一道多线程面试题才知道有方法可以判断某个线程是否持有对象监视器：Thread类提供了一个holdsLock(Object obj)方法，当且仅当对象obj的监视器被某条线程持有的时候才会返回true，注意这是一个static方法，这意味着"某条线程"指的是当前线程。
 
  
 
-18、synchronized和ReentrantLock的区别
+# 18、synchronized和ReentrantLock的区别
 
 synchronized是和if、else、for、while一样的关键字，ReentrantLock是类，这是二者的本质区别。既然ReentrantLock是类，那么它就提供了比synchronized更多更灵活的特性，可以被继承、可以有方法、可以有各种各样的类变量，ReentrantLock比synchronized的扩展性体现在几点上：
 
@@ -174,13 +174,13 @@ synchronized是和if、else、for、while一样的关键字，ReentrantLock是�
 
  
 
-19、ConcurrentHashMap的并发度是什么
+# 19、ConcurrentHashMap的并发度是什么
 
 ConcurrentHashMap的并发度就是segment的大小，默认为16，这意味着最多同时可以有16条线程操作ConcurrentHashMap，这也是ConcurrentHashMap对Hashtable的最大优势，任何情况下，Hashtable能同时有两条线程获取Hashtable中的数据吗？
 
  
 
-20、ReadWriteLock是什么
+# 20、ReadWriteLock是什么
 
 首先明确一下，不是说ReentrantLock不好，只是ReentrantLock某些时候有局限。如果使用ReentrantLock，可能本身是为了防止线程A在写数据、线程B在读数据造成的数据不一致，但这样，如果线程C在读数据、线程D也在读数据，读数据是不会改变数据的，没有必要加锁，但是还是加锁了，降低了程序的性能。
 
