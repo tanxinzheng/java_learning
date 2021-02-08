@@ -188,7 +188,7 @@ ConcurrentHashMap的并发度就是segment的大小，默认为16，这意味着
 
  
 
-21、FutureTask是什么
+# 21、FutureTask是什么
 
 这个其实前面有提到过，FutureTask表示一个异步运算的任务。FutureTask里面可以传入一个Callable的具体实现类，可以对这个异步运算的任务的结果进行等待获取、判断是否已经完成、取消任务等操作。当然，由于FutureTask也是Runnable接口的实现类，所以FutureTask也可以放入线程池中。
 
