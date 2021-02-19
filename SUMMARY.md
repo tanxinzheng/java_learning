@@ -2,6 +2,7 @@
 
 * [简介](README.md)
 * [目录](SUMMARY.md)
+* [数据结构](datastructure/README.md)
 * [JVM](jvm/README.md)
   * [JVM运行机制及原理](jvm/JVM运行机制及原理.md)
   * [JVM垃圾回收机制及原理](jvm/JVM垃圾回收机制及原理.md)
@@ -13,7 +14,6 @@
 * [微服务](cloud/README.md)
 * [数据库](database/README.md)
 * [网络](network/README.md)
-* [数据结构](datastructure/README.md)
 * [结束](end/README.md)
 
 
