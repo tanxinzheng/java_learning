@@ -6,6 +6,7 @@
   * [栈](data-structure/stack.md)
   * [堆](data-structure/heap.md)
   * [队列](data-structure/queue.md)
+  * [链表](data-structure/linked.md)
   * [树](data-structure/tree.md)
 * [JVM](jvm/README.md)
   * [JVM运行机制及原理](jvm/JVM运行机制及原理.md)
