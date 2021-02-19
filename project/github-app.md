@@ -50,9 +50,9 @@ Github 地址：https://github.com/TeamNewPipe/NewPipe
 
 
 
-***\*高仿网易云音乐\****
+****高仿网易云音乐****
 
-***\**\*▼\*\**\***
+****▼****
 
 **iOS 版：**
 
@@ -77,7 +77,7 @@ Github 地址：https://github.com/aa112901/remusic
 
 
 
-***\*高仿Bilibili\****
+****高仿Bilibili****
 
 **▼**
 
