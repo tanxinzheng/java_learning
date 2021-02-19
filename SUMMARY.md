@@ -6,7 +6,7 @@
   * [JVM运行机制及原理](java/JVM运行机制及原理.md)
   * [JVM垃圾回收机制及原理](java/JVM垃圾回收机制及原理.md)
 * [Java集合](java-collection/README.md)
-* [Java线程](java-thread/README.md)
+* [Java多线程](java-thread/README.md)
   * [Java多线程问题](java-thread/java多线程问题.md)
 * [Spring基础](cloud/README.md)
 * [微服务](cloud/README.md)
