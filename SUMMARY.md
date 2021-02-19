@@ -14,6 +14,7 @@
 * [微服务](cloud/README.md)
 * [数据库](database/README.md)
 * [网络通信](network/README.md)
+* [算法](algorithm/README.md)
 * [结束](end/README.md)
 
 
