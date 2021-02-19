@@ -1,8 +1,8 @@
-## 面试问题
+### 面试问题
 
 Redis锁的过期时间小于业务的执行时间该如何续期？
 
-## 问题分析
+### 问题分析
 
 首先如果你之前用Redis的分布式锁的姿势正确,并且看过相应的官方文档的话,这个问题`So easy`.我们来看
 
@@ -20,7 +20,7 @@ Redis锁的过期时间小于业务的执行时间该如何续期？
 
  
 
-## Redisson分布式锁的底层原理 
+### Redisson分布式锁的底层原理 
 
 ![img](https://img-blog.csdnimg.cn/20190328230407942.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0ppU2h1aVNhblFpYW5MaQ==,size_16,color_FFFFFF,t_70)**redisson实现Redis分布式锁的底层原理**
 
