@@ -20,6 +20,7 @@
   * [Java多线程问题](java-thread/java多线程问题.md)
 * [Spring基础](cloud/README.md)
 * [微服务](cloud/README.md)
+* [分布式架构](distribution/README.md)
 * [数据库](database/README.md)
 * [网络通信](network/README.md)
 * [算法](algorithm/README.md)
