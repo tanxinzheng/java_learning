@@ -3,7 +3,6 @@
 * [简介](README.md)
 * [目录](SUMMARY.md)
 * [Java](java/README.md)
-
   * [JVM运行机制及原理](java/JVM运行机制及原理.md)
   * [JVM垃圾回收机制及原理](java/JVM垃圾回收机制及原理.md)
 * [Java集合](java-collection/README.md)
