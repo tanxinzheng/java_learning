@@ -22,6 +22,7 @@
 * [数据库](database/README.md)
 * [网络通信](network/README.md)
 * [算法](algorithm/README.md)
+  * [加密算法](algorithm/encryption-algorithm.md)
   * [排序算法](algorithm/sort-algorithm.md)
 * [项目实战](project/README.md)
   * [Github移动端高仿App](project/github-app.md)
