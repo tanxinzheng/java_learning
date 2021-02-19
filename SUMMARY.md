@@ -2,7 +2,8 @@
 
 * [简介](README.md)
 * [目录](SUMMARY.md)
-* [数据结构](datastructure/README.md)
+* [数据结构](data-structure/README.md)
+  * [栈](data-structure/)
 * [JVM](jvm/README.md)
   * [JVM运行机制及原理](jvm/JVM运行机制及原理.md)
   * [JVM垃圾回收机制及原理](jvm/JVM垃圾回收机制及原理.md)
