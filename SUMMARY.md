@@ -26,6 +26,7 @@
   * [分布式锁](distribution/lock.md)
 * [数据库](database/README.md)
 * [网络通信](network/README.md)
+* [性能优化](profermance/README.md)
 * [算法](algorithm/README.md)
   * [加密算法](algorithm/encryption-algorithm.md)
   * [排序算法](algorithm/sort-algorithm.md)
