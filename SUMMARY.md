@@ -2,9 +2,9 @@
 
 * [简介](README.md)
 * [多线程](java/README.md)
-  * [1. Java多线程问题](java/java多线程问题.md)
-* [JVM运行机制及原理](JVM/JVM运行机制及原理.md)
-* [JVM垃圾回收机制及原理](JVM/JVM垃圾回收机制及原理.md)
+  * [Java多线程问题](java/java多线程问题.md)
+  * [JVM运行机制及原理](java/JVM运行机制及原理.md)
+  * [JVM垃圾回收机制及原理](java/JVM垃圾回收机制及原理.md)
 
 ```
 # 目录
