@@ -15,6 +15,7 @@
 * [数据库](database/README.md)
 * [网络通信](network/README.md)
 * [算法](algorithm/README.md)
+  * [排序算法](algorithm/sort-algorithm.md)
 * [结束](end/README.md)
 
 
