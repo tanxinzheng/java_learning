@@ -9,7 +9,7 @@
   * [链表](data-structure/linked.md)
   * [散列表](data-structure/hashtable.md)
   * [树](data-structure/tree.md)
-  * [位图](data-structure/tree.md)
+  * [位图](data-structure/bitmap.md)
 * [JVM](jvm/README.md)
   * [JVM运行机制及原理](jvm/JVM运行机制及原理.md)
   * [JVM垃圾回收机制及原理](jvm/JVM垃圾回收机制及原理.md)
