@@ -20,6 +20,8 @@ TPS 即Transactions Per Second的缩写，每秒处理的事务数目。一个�
 
 * QPS
 QPS 即Queries Per Second的缩写，每秒能处理查询数目。是一台服务器每秒能够相应的查询次数，是对一个特定的查询服务器在规定时间内所处理流量多少的衡量标准。
+
+* RPS
 RPS 即Requests Per Second的缩写，每秒能处理的请求数目。等效于QPS
 
 因特网上，经常用每秒查询率来衡量域名系统服务器的机器的性能，其即为QPS。
