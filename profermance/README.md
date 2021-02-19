@@ -1,11 +1,11 @@
 * PV 
 
-即 page view，页面浏览量
+PV即 page view，页面浏览量
    用户每一次对网站中的每个页面访问均被记录1次。用户对同一页面的多次刷新，访问量累计。
 
 * UV 
 
-即 Unique visitor，独立访客
+UV即 Unique visitor，独立访客
    通过客户端的cookies实现。即同一页面，客户端多次点击只计算一次，访问量不累计。
 
 * IP
