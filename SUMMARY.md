@@ -23,6 +23,7 @@
 * [微服务](cloud/README.md)
 * [分布式架构](distribution/README.md)
   * [分布式锁](distribution/lock.md)
+    * [锁的过期时间小于事务处理时间怎么解决？](distrubution/lock/question1.md)
   * [分布式缓存](distribution/cache.md)
   * [分布式ID](distribution/id.md)
 * [数据库](database/README.md)
